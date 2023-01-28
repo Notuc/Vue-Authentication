@@ -1,4 +1,4 @@
-# hello-world
+# Vue-Authentication
 
 ## Project setup
 ```
