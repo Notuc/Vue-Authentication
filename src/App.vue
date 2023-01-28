@@ -4,18 +4,26 @@
       <div class="container">
         <a href="#" class="navbar-brand">Home</a>
         <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-  <li class="nav-item">
-    <a href="#" class="nav-link">login</a>
-  </li>
-  <li class="nav-item">
-    <a href="#" class="nav-link">Sign Up</a>
-  </li>
-</ul>
+          <div class="container d-flex justify-content-end">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a href="#" class="nav-link">Login</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Sign up</a>
+    </li>
+  </ul>
+</div>
+
 
         </div>
       </div>
     </nav>
+    <div class="auth-wrapper">
+      <div class="auth-inner">
+        Hello
+      </div>
+    </div>
   </div>  
 </template>
 
@@ -62,6 +70,7 @@ export default {
   justify-content: center;
   flex-direction: column;
   text-align: left;
+ 
   }
   .auth-inner{
     width: 450px;
@@ -69,18 +78,20 @@ export default {
     background: #ffffff;
     box-shadow:  0px 14px 80px rgba(34,35, 58, 0.2);
     padding: 40px 55px 45px 55px;
-    border-radius: 15;
+    border-radius: 15px;
     transition: all .3s;
   }
   .auth-wrapper .form-control:focus{
     border-color:#167bff ;
     box-shadow: none;
+    
   }
   .auth-wrapper h3 {
     text-align: center;
     margin: 0;
     line-height: 1;
     padding-bottom: 20px;
+    
   }
   .custom-control-label{
     font-weight: 400;
