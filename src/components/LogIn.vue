@@ -7,7 +7,7 @@
         </div>
         <div class="form-group">
             <label>Password</label>
-            <input type="password" class="form-control" placeholder="Pmail"/>
+            <input type="password" class="form-control" placeholder="Password"/>
         </div>
     <button class="btn btn-primary btn-block">Login</button>
 </form>        
