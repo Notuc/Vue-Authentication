@@ -4,7 +4,7 @@
     
     <div class="auth-wrapper">
       <div class="auth-inner">
-        <Home />
+        <LogIn />
       </div>
     </div>
   </div>  
@@ -13,13 +13,16 @@
 <script>
 
 import NavBar from "./components/NavBar.vue"
-import HomeMain from "./components/HomeMain.vue"
+// import HomeMain from "./components/HomeMain.vue"
+import LogIn from "./components/LogIn.vue"
 
 export default {
   name: 'App',
   components: {
   NavBar,
-  HomeMain,
+  // HomeMain,
+  LogIn,
+
 
   }
 }
