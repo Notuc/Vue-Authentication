@@ -35,5 +35,8 @@
 <script>
 export default {
     name: "RegisterUser",
+    methods: [
+        
+    ]
 }
 </script>
