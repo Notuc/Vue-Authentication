@@ -13,13 +13,13 @@
 <script>
 
 import NavBar from "./components/NavBar.vue"
-import Home from "./components/Home.vue"
+import HomeMain from "./components/HomeMain.vue"
 
 export default {
   name: 'App',
   components: {
   NavBar,
-  Home,
+  HomeMain,
 
   }
 }
