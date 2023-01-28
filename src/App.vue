@@ -1,27 +1,10 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand navbar-light fixed-top">
-      <div class="container">
-        <a href="#" class="navbar-brand">Home</a>
-        <div class="collapse navbar-collapse">
-          <div class="container d-flex justify-content-end">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a href="#" class="nav-link">Login</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">Sign up</a>
-    </li>
-  </ul>
-</div>
-
-
-        </div>
-      </div>
-    </nav>
+    <NavBar />
+    
     <div class="auth-wrapper">
       <div class="auth-inner">
-        Hello
+        <Home />
       </div>
     </div>
   </div>  
@@ -29,17 +12,21 @@
 
 <script>
 
+import NavBar from "./components/NavBar.vue"
+import Home from "./components/Home.vue"
 
 export default {
   name: 'App',
   components: {
-   
+  NavBar,
+  Home,
+
   }
 }
 </script>
 
 <style>
-  @import url ('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+  
   *{
     box-sizing: border-box;
   }
