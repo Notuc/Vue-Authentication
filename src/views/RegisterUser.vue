@@ -33,7 +33,8 @@
 </template>
 
 <script>
-import axios from "axios"
+import axios from 'axios'
+
 export default {
     name: "RegisterUser",
     data(){
@@ -42,33 +43,34 @@ export default {
             last_name: '',
             email: '',
             password: '',
-            password_comfirm: ''
+            password_confirm: ''
         }
     },
     methods: {
-    handleSubmit(){
-        const data = {
+       async handleSubmit(){
+            // const data = {
+            //     first_name: this.first_name,
+            //     last_name: this.last_name,
+            //     email: this.email,
+            //     password: this.password,
+            //     password_confirm: this.password_confirm
+            // }
+             await axios.post('api/registerusers', {
             first_name: this.first_name,
             last_name: this.last_name,
             email: this.email,
             password: this.password,
-            password_confirm: this.password_confirm //fixed typo
+            password_confirm: this.password_confirm})
+            // .then(response => {
+            //     console.log(response.data)
+            // })
+            // .catch(error => {
+            //     console.log(error)
+            // })
+            
+            this.$router.push('/logIn')
         }
-        axios.post('HTTP://LOCALHOST:8000/registeruser', data)
-        .then(
-            res =>{
-                console.log(res)
-            }
-        ).catch (
-            err => {
-                console.log(err)
-            }
-        )
     }
 }
-        
-            
-        }
-    
-
 </script>
+
