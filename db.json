@@ -1,45 +1,17 @@
 {
   "registerusers": [
     {
-      "first_name": "john ",
-      "last_name": "doe",
+      "first_name": "John ",
+      "last_name": "Doe",
       "email": "johndoe@test.com",
       "password": "john",
       "password_confirm": "john",
       "id": "7pUnuyA"
     },
     {
-      "first_name": "a",
-      "last_name": "a",
-      "email": "a@a.com",
-      "password": "a",
-      "password_confirm": "a",
-      "id": "46_dD_3"
-    },
-    {
       "email": "johndoe@test.com",
       "password": "john",
-      "id": "LYO45yh"
-    },
-    {
-      "email": "johndoe@test.com",
-      "password": "john",
-      "id": "6Z_5cIF"
-    },
-    {
-      "email": "a@a.com",
-      "password": "a",
-      "id": "rpVog-_"
-    },
-    {
-      "email": "johndoe@test.com",
-      "password": "john",
-      "id": "wnhTXIs"
-    },
-    {
-      "email": "johndoe@test.com",
-      "password": "john",
-      "id": "oxVaZNj"
+      "id": "2DTTH21"
     }
   ]
 }

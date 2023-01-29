@@ -30,8 +30,9 @@
                     email: this.email,
                     password: this.password
                 })
-               localStorage.setItem('token', response.data.token)
-            }
+              console.log(response)
+            },
+            
             
         }
 
