@@ -14,11 +14,25 @@ export default createStore({
   actions: {
     async login ({ commit }, { email, password }) {
       try {
+<<<<<<< Updated upstream
         const { data } = await axios.post('api/registerusers', { email, password })
         commit('SET_USER', data)
       } catch (error) {
         // handle error
       }
     }
+=======
+          const { data } = await axios.post('api/registerusers', { email, password })
+          if (data.error) {
+            // handle error
+          } else {
+            commit('SET_USER', data)
+          }
+      } catch (error) {
+          // handle error
+      }
+  }
+  
+>>>>>>> Stashed changes
   }
 })
