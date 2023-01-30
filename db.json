@@ -7,8 +7,21 @@
       "password": "john",
       "password_confirm": "john",
       "id": "7pUnuyA"
-
+    },
+    {
+      "email": "johndoe@test.com",
+      "password": "john",
+      "id": "kYeKhsU"
+    },
+    {
+      "email": "johndoe@test.com",
+      "password": "john",
+      "id": "lfB5CE4"
+    },
+    {
+      "email": "johndoe@test.com",
+      "password": "john",
+      "id": "SIIT3eG"
     }
-    
   ]
 }

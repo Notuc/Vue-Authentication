@@ -26,7 +26,7 @@
     }, 
     methods: {
       ...mapActions(['login']),
-      async handleSumbit() {
+      async handleSubmit() {
         await this.login({ email: this.email, password: this.password })
       }
   }
