@@ -22,6 +22,21 @@
       "email": "johndoe@test.com",
       "password": "john",
       "id": "SIIT3eG"
+    },
+    {
+      "email": "johndoe@test.com",
+      "password": "john",
+      "id": "07Zejj0"
+    },
+    {
+      "email": "johndoe@game.com",
+      "password": "john",
+      "id": "r3oYO_F"
+    },
+    {
+      "email": "johndoe@game.com",
+      "password": "john",
+      "id": "JReVO4T"
     }
   ]
 }
