@@ -25,19 +25,11 @@
       }
     }, 
     methods: {
-<<<<<<< Updated upstream
       ...mapActions(['login']),
       async handleSumbit() {
         await this.login({ email: this.email, password: this.password })
       }
-    }
-=======
-  ...mapActions(['login']),
-  async handleSubmit() {
-    await this.login({ email: this.email, password: this.password })
   }
 }
->>>>>>> Stashed changes
-  }
   </script>
   
