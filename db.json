@@ -7,14 +7,8 @@
       "password": "john",
       "password_confirm": "john",
       "id": "7pUnuyA"
-<<<<<<< Updated upstream
-    },
-    {
-      "email": "johndoe@test.com",
-      "password": "john",
-      "id": "2DTTH21"
-=======
->>>>>>> Stashed changes
+
     }
+    
   ]
 }
